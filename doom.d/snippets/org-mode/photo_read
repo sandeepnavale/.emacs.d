@@ -1,0 +1,33 @@
+# key: prt
+# name: photo_read
+# condition: t
+# --
+
+* Photo Read for ${1:Topic} 
+`(format-time-string "%A %D ")`
+`(format-time-string "%r ")`
+
+**  Prepare for ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))}
+    + [ ] Mind & Body relaxed.
+    + [ ] Clamn & Focused mind.
+    + [ ] Started Pomodoro timer.
+    + [ ] Visualize.
+*** Questions
+**** 1. What is ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))}?
+    + ${2} 
+**** 2. Why ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} is needed?
+    + ${3}
+**** 3. Where ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} is it used?
+    + ${4}
+**** 4. When ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} is it needed?
+    + ${5}
+**** 5. Which ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} ?
+    + ${6}
+**** 6. How to use ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} ?
+    + ${7}
+**  Preview for ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))}
+*** Structure of my reading.
+    + ${8}
+**  Photoread for ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} 
+**  Activate for ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))} 
+**  Postread for ${1:$(downcase(replace-regexp-in-string " " "_" yas-text))}

@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: my daily log
+# uuid:
+# key: dl
+# condition: t
+# --
+
+=What you enjoyed?=
+1.
+2.
+3.
+
+=What you learned?=
+1.
+2.
+3.
+
+=What can be improved?=
+1.
+2.
+3.
